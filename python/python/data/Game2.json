@@ -1,0 +1,53 @@
+{
+  "id": 2,
+  "userData": {
+    "uid1": "unbekannt",
+    "uid2": ""
+  },
+  "score": {
+    "matchedFigures": 2,
+    "time": {
+      "initialTime": 1561813049324,
+      "finalTime": 1561813121469
+    },
+    "gridSize": "4x4",
+    "numberOfPlayers": 1
+  },
+  "touchDataList": {
+    "matched": [
+      {
+        "points": [
+          {
+            "deltaTime": 7.554210662841797,
+            "x": 0.7624450922012329,
+            "y": 0.6103515625
+          }
+        ],
+        "sameFigures": [
+          {
+            "x": 0.7555569410324097,
+            "y": 0.6136363744735718,
+            "deltaTimeMatch": 7.620876312255859
+          },
+          {
+            "x": 0.24444301426410676,
+            "y": 0.8409090638160706,
+            "deltaTimeMatch": 8.821630477905274
+          }
+        ]
+      }
+    ],
+    "unmatched": [
+      {
+        "points": [
+          {
+            "deltaTime": 72.12589263916016,
+            "x": 0.9194729328155518,
+            "y": 0.50341796875
+          }
+        ],
+        "sameFigures": []
+      }
+    ]
+  }
+}
