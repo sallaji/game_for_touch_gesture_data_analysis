@@ -99,9 +99,14 @@ Contains a python script including different methodos for data analysis
 | Anaconda | 2019.10 |
 
 ### Definition of trajectory, point, sequence and time series terms
-![def](readmepics/trajectory_point_sequence_definition.jpg "def")
-![def](readmepics/trajectory_point_sequence_definition_2.jpg "def")
-![def](readmepics/timeseries.jpg "def")
+
+![def](readmepics/trajectory_point_sequence_definition.JPG "def")
+
+![def](readmepics/trajectory_point_sequence_definition_2.JPG "def")
+
+![def](readmepics/timeseries.JPG "def")
+
+
 <small>Plot of one dimensional time series corresponding to the positions of the vertical displacements (y-axis)
        of two different trajectories</small>
 
