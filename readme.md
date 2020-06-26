@@ -28,7 +28,7 @@ which the player determines the way he wants to play the game round</small>
        initial setup scene</small>
 
 ### Simplified JSON Structure of the collected data during a game round (ignore '//' comments)
-```json
+```json {r error=TRUE}
 {
  "id": 2, // the game round id
  "userData": {
@@ -104,13 +104,14 @@ Contains a python script including different methodos for data analysis
 
 ![def](readmepics/trajectory_point_sequence_definition_2.JPG "def")
 
-![def](readmepics/timeseries.JPG "def")
+![Time series](readmepics/timeseries.JPG "Time series")
 
 
 <small>Plot of one dimensional time series corresponding to the positions of the vertical displacements (y-axis)
        of two different trajectories</small>
 
 ### Listing and grouping of trajectories according to paired figure positions
+
 The trajectories of all the game rounds are grouped according to the position
 of the figures paired in each of them. The trajectories will be listed containing the
 following information:
@@ -118,6 +119,6 @@ following information:
 |Group id|Uid1|Uid2|X|Y|
 |---|---|---|---|---|
 |Group to which the trajectory pertains according to the position of the paired figures.|id for the user 1 who played the game round converted into a unique integer|id for the user 2 who played the game round converted into a unique integer| Array of positions on the xaxis of the trajectory points | Array of positions on the y-axis of the trajectory points|
-![def](readmepics/shapematch_trajectory_group.jpg "def")
-<small> Illustration of figures that appear in the same position of the grid. The trajectories that match these figures
-       belong to the same group</small>
+
+![Trajectory groups](readmepics/shapematch_trajectory_group.JPG "Trajectory groups")
+<small> Illustration of figures that appear in the same position of the grid. The trajectories that match these figures belong to the same group</small>
